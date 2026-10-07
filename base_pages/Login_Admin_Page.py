@@ -19,6 +19,9 @@ class Login_Admin_Page:
     def click(self):
         self.driver.findElement(By.XPATH, self.text_by_login_by_type).click()
 
+    def click2(self):
+        self.driver.findElement(By.XPATH, self.text_by_login_by_type).click()
+
 
 
 
