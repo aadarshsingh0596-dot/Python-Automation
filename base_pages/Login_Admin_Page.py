@@ -11,17 +11,6 @@ class Login_Admin_Page:
         self.driver = driver
 
 
-    def user_name(self,username):
-        self.driver.findElement(By.ID,self.text_by_username).send_keys(username)
-
-    def user_pass(self, password):
-        self.driver.findElement(By.ID, self.text_by_password).send_keys(password)
-
-    def click(self):
-        self.driver.findElement(By.XPATH, self.text_by_login_by_type).click()
-
-
-
 
 
 
